@@ -1,0 +1,1 @@
+package com.eteration.simplebanking.dto;import lombok.AllArgsConstructor;import lombok.Data;import lombok.NoArgsConstructor;import java.time.LocalDateTime;@Data@NoArgsConstructor@AllArgsConstructorpublic class TransactionDto {    private LocalDateTime date;    private double amount;    private String type;    private String approvalCode;}

@@ -1,0 +1,1 @@
+package com.eteration.simplebanking.dto;import lombok.*;import java.util.Date;import java.util.List;@Data@NoArgsConstructor@AllArgsConstructorpublic class AccountDto {    private String accountNumber;    private String owner;    private double balance;    private Date createDate;    private List<TransactionDto> transactions;}

@@ -1,0 +1,1 @@
+package com.eteration.simplebanking.dto;import lombok.AllArgsConstructor;import lombok.Data;import lombok.NoArgsConstructor;@Data@NoArgsConstructor@AllArgsConstructorpublic class CreditDto {    private double amount;    private String status;    private String approvalCode;}
